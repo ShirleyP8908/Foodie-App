@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">FoodieApp</string>
+    <string name="title_placeholder" />
+    <string name="news_placeholder" />
+    <string name="meal_info_placeholder" />
+
+    <string-array name="meal_titles">
+        <item>Hamburguesa con queso</item>
+        <item>Pizza Pie</item>
+        <item>Sushi Tempura</item>
+        <item>Pollo entero</item>
+        <item>Gofres</item>
+        <item>Salmón a la parrilla y arroz</item>
+        <item>Lasaña</item>
+    </string-array>
+
+    <string-array name="meal_info" >
+        <item>Ahhh la hamburguesa con queso. ¿A quién no le gusta una buena hamburguesa en una tarde, eh? Tal vez
+        a la parrilla o en una barbacoa. Personalmente, me gusta una hamburguesa con unas buenas cebollas, tocino, queso americano, lechuga y un buen
+        lechuga crujiente.</item>
+        <item>El clásico pastel de pizza. Pizza, plato de origen italiano que consiste en un disco aplanado de masa de pan cubierto con alguna combinación de
+            aceite de oliva, orégano, tomate, aceitunas, mozzarella u otro queso, y muchos otros ingredientes, horneados rápidamente, generalmente,
+            en un ambiente comercial, utilizando un horno de leña calentado a una temperatura muy alta y servido caliente.</item>
+        <item>Tempura Sushi. Mi tipo favorito de sushi para ser honesto. El término tempura es una palabra japonesa que se usa para referirse a los mariscos.
+            o vegetales preparados sumergiéndolos en una masa y friéndolos en abundante aceite caliente.
+            Los camarones en tempura son un plato delicioso de la cocina japonesa elaborados al freír dulces y
+            camarones salados con masa crujiente y migas.</item>
+        <item>Pollo entero. Me encanta poner esto en mi ensalada. Pollo entero que consta de pechuga,
+            muslo, alas, cuello y espalda. Puede contener un hígado, un estómago y un corazón.
+            Es ideal para horno o incluso para sopas y guisos, si se corta en partes.</item>
+        <item>Gofres, una delicia para el desayuno. Un gofre es una masa con levadura o masa cocinada entre dos platos calientes.
+            de una gofrera, modelada para dar un tamaño característico, forma,
+            e impresión de superficie en forma de cuadrícula. Los waffles se cocinan hasta que se vuelven
+            De color marrón dorado, con una textura exterior crujiente y un interior suave. </item>
+        <item>Salmón a la Plancha y Arroz, otra delicia. El salmón es fácil, saludable y
+            delicioso preparado en un simple adobo. El arroz es la semilla de una hierba semiacuática (Oryza sativa) que es
+            cultivado extensamente en climas cálidos en muchos países, incluyendo los Estados Unidos,
+            por su grano comestible. Es un alimento básico en todo el mundo.</item>
+        <item>Lasaña. Una de mis comidas favoritas. Lasagna (plural “lasagne”) es una lámina de pasta plana y expandida,
+            hecho tradicionalmente en Italia con Parmigiano-Reggiano, salsa bechamel y ragú.
+            A pesar de que la forma tradicional sigue siendo popular, la lasaña ha adquirido muchas formas diferentes.
+            recetas a lo largo de los años.</item>
+    </string-array>
+
+    <string-array name="meal_images" >
+        <item>@drawable/cheeseburger</item>
+        <item>@drawable/cheesepizza</item>
+        <item>@drawable/shrimptempuraroll</item>
+        <item>@drawable/roastedchickenlemon</item>
+        <item>@drawable/waffles</item>
+        <item>@drawable/grilledsalmon</item>
+        <item>@drawable/lasagna</item>
+    </string-array>
+
+    <integer-array name="meal_calories">
+        <item>303</item>
+        <item>2000</item>
+        <item>508</item>
+        <item>2994</item>
+        <item>436</item>
+        <item>434</item>
+        <item>336</item>
+    </integer-array>
+
+
+    <string-array name="meal_ingredients">
+        <item>Carne Molida, Queso Americano, 2 Panes De Hamburguesa, Ketchup, Mayonesa
+        cebolla roja en rodajas, pepinillos en rodajas, lechuga fresca</item>
+        <item>1 bola de masa, muzzarella fresca, 2 cucharadas de hojas de albahaca,
+        Aceite de oliva virgen extra, 1 lata de salsa de tomate, parmesano rallado
+        </item>
+        <item>Arroz de sushi, 1 hoja de nori, alga seca tostada, 3 piezas de gambas preparadas en tempura
+            , 2 rebanadas de aguacate, 3 cucharaditas de queso crema (use el queso crema en bloque y córtelo en un par de
+            rebanadas rectangulares, ½ taza de harina, masa tempura, aceite para freír</item>
+        <item> Pollo entero, hierbas y cebolla entera, ajo y mantequilla, aceite de oliva </item>
+        <item> Huevos, harina, leche, aceite, azúcar, levadura en polvo, sal, vainilla, spray para cocinar</item>
+        <item> 1 1⁄2 - 2 libras de filetes de salmón, 2 cucharadas de salsa teriyaki, 1 cucharada de salsa Worcestershire,
+            2 cucharadas de jugo de limón, 2 cucharadas de azúcar morena, 1 cucharada de mostaza Dijon</item>
+
+        <item>
+        2 cucharaditas de aceite de oliva extra virgen, 1 libra de carne molida, 1/2 cebolla mediana,
+            cortado en cubitos, 1/2 pimiento morrón grande (verde, rojo o amarillo), cortado en cubitos, 2 dientes de ajo picados
+            1 lata de salsa de tomate, 3 onzas de pasta de tomate (media lata de 6 onzas),
+            1 lata de tomates triturados, 2 cucharadas de orégano fresco picado, o 2 cucharaditas de orégano seco,
+            1/4 taza de perejil fresco picado, empacado, 1 cucharada de condimento italiano,
+            1 pizca de ajo en polvo y/o sal de ajo, 1 cucharada de vinagre de vino tinto o blanco
+            1 cucharada a 1/4 taza de azúcar, Sal
+        </item>
+    </string-array>
+
+    <string-array name="meal_recipes">
+        <item>https://www.recipetineats.com/cheeseburger-recipe/</item>
+        <item>https://thefoodcharlatan.com/homemade-pizza-recipe/</item>
+        <item>https://www.favfamilyrecipes.com/godzilla-rolls/#wprm-recipe-container-19810</item>
+        <item>https://www.spendwithpennies.com/roast-chicken/</item>
+        <item>https://www.allrecipes.com/recipe/22180/waffles-i/</item>
+        <item>https://www.food.com/recipe/grilled-salmon-and-rice-332882</item>
+        <item>https://www.simplyrecipes.com/recipes/lasagna/</item>
+    </string-array>
+
+
+
+
+</resources>

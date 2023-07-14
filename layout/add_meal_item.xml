@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/new_meal_title"
+       android:text="Title"
+       android:gravity="center"
+       >
+   </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/new_meal_description"
+        android:layout_height="118dp"
+        android:gravity="center"
+        android:text="Description"></EditText>
+
+    <EditText
+        android:id="@+id/new_meal_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center"
+        android:text="Ingredients">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/new_mean_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="Recipe">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_meal_calories"
+        android:text="Calories"
+        android:gravity="center">
+    </EditText>
+
+    <Button
+        android:id="@+id/submit_meal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Submit Meal" />
+
+    <ImageView
+        android:id="@+id/add_meal_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+</LinearLayout>
+
+

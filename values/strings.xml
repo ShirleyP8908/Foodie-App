@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">FoodieApp</string>
+    <string name="title_placeholder" />
+    <string name="news_placeholder" />
+    <string name="meal_info_placeholder" />
+
+    <string-array name="meal_titles">
+        <item>Cheeseburger</item>
+        <item>Pizza Pie</item>
+        <item>Tempura Sushi</item>
+        <item>Whole Chicken</item>
+        <item>Waffles</item>
+        <item>Grilled Salmon and Rice</item>
+        <item>Lasagna</item>
+    </string-array>
+
+    <string-array name="meal_info" >
+        <item>Ahhh the Cheeseburger. Who doesnt like a nice burger on a afternoon huh? Maybe
+        on the grill or in a barbeque. I personally like a burger with some nice onions, bacon, american cheese, lettuce, and some nice
+        crunchy lettuce.</item>
+        <item>The classic Pizza Pie. Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of
+            olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually,
+            in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.</item>
+        <item>Tempura Sushi. My favorite kind of sushi to be honest. The term tempura is a Japanese word used to refer to seafood
+            or vegetables prepared by dipping them in a batter and deep frying them in hot oil.
+            Tempura shrimp is a delectable dish in Japanese cuisine made by frying sweet and
+            savoury shrimp with crispy batter and crumbs.</item>
+        <item>Whole Chicken. Love putting this in my salad. Whole chicken which consists of breast,
+            thigh, wings, neck and back. It may contain one liver, one stomach and one heart.
+            It is ideal for oven or even for soup and stews, if cut in parts.</item>
+        <item>Waffles, a breakfast delicacy. A waffle is a leavened batter or dough cooked between two hot plates
+            of a waffle iron, patterned to give a characteristic size, shape,
+            and grid-like surface impression. Waffles are cooked until they become
+            golden-brown in color, with a crispy outer texture and a soft interior. </item>
+        <item>Grilled Salmon and Rice, another delicacy. Salmon is easy, healthy, and
+            delicious prepared in a simple marinade. Rice is the seed of a semi-aquatic grass (Oryza sativa) that is
+            cultivated extensively in warm climates in many countries, including the United States,
+            for its edible grain. It is a staple food throughout the world.</item>
+        <item>Lasagna. One of my favorite meals ever. Lasagna (plural “lasagne”) is a flat and expanded pasta sheet,
+            traditionally made in Italy with Parmigiano-Reggiano, Béchamel sauce, and ragù.
+            Despite the traditional form still being popular, lasagna has taken on many different
+            recipes over the years.</item>
+
+    </string-array>
+
+    <string-array name="meal_images" >
+        <item>@drawable/cheeseburger</item>
+        <item>@drawable/cheesepizza</item>
+        <item>@drawable/shrimptempuraroll</item>
+        <item>@drawable/roastedchickenlemon</item>
+        <item>@drawable/waffles</item>
+        <item>@drawable/grilledsalmon</item>
+        <item>@drawable/lasagna</item>
+    </string-array>
+
+    <integer-array name="meal_calories">
+        <item>303</item>
+        <item>2000</item>
+        <item>508</item>
+        <item>2994</item>
+        <item>436</item>
+        <item>434</item>
+        <item>336</item>
+    </integer-array>
+
+
+    <string-array name="meal_ingredients">
+        <item>Ground Beef, American Cheese, 2 Burger Buns, Ketchup, Mayonnaise
+        sliced red onion, sliced pickles, fresh lettuce</item>
+        <item>1 ball of dough, fresh mozzarella, 2 tablespoons of basil leaves,
+        Extra-virgin olive oil, 1 can of tomato sauce, grated parmesan
+        </item>
+        <item> Sushi Rice, 1 sheet Nori, Dry roasted seaweed, 3 pieces shrimp tempura prepared
+            , 2 slices avocado, 3 teaspoons cream cheese (use the block cream cheese and cut into a couple long,
+            rectangular slices, ½ cup flour, tempura batter, oil for frying</item>
+        <item> Whole Chicken, Herbs and Whole Onion, garlic and butter, olive oil </item>
+        <item> Eggs, flour, Milk, Oil, Sugar, Baking Powder, Salt, Vanilla, Cooking spray</item>
+        <item> 1 1⁄2 - 2 lbs salmon fillets, 2 tablespoons teriyaki sauce, 1 tablespoon Worcestershire sauce,
+            2 tablespoons lemon juice, 2 tablespoons brown sugar, 1 tablespoon Dijon mustard</item>
+
+        <item>
+        2 teaspoons extra virgin olive oil, 1 pound ground beef chuck, 1/2 medium onion,
+            diced, 1/2 large bell pepper (green, red, or yellow), diced, 2 cloves garlic, minced
+            1 can tomato sauce, 3 ounces tomato paste (half a 6-ounce can),
+            1 can crushed tomatoes, 2 tablespoons chopped fresh oregano, or 2 teaspoons dried oregano,
+            1/4 cup chopped fresh parsley, packed, 1 tablespoon Italian seasoning,
+            1 pinch garlic powder and/or garlic salt, 1 tablespoon red or white wine vinegar
+            1 tablespoon to 1/4 cup sugar, Salt
+        </item>
+    </string-array>
+    
+    <string-array name="meal_recipes">
+        <item>https://www.recipetineats.com/cheeseburger-recipe/</item>
+        <item>https://thefoodcharlatan.com/homemade-pizza-recipe/</item>
+        <item>https://www.favfamilyrecipes.com/godzilla-rolls/#wprm-recipe-container-19810</item>
+        <item>https://www.spendwithpennies.com/roast-chicken/</item>
+        <item>https://www.allrecipes.com/recipe/22180/waffles-i/</item>
+        <item>https://www.food.com/recipe/grilled-salmon-and-rice-332882</item>
+        <item>https://www.simplyrecipes.com/recipes/lasagna/</item>
+    </string-array>
+
+
+    
+    
+</resources>

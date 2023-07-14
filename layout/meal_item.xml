@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/cardview_margin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/MealTitle"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/title_placeholder" />
+
+        <ImageView
+        android:id="@+id/image_meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MealDetailTitle"
+        android:padding="8dp"
+        android:text="@string/news_placeholder"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtitle"
+            android:text="@string/meal_info_placeholder"
+            android:padding="8dp"
+            style="@style/MealDetailText"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
